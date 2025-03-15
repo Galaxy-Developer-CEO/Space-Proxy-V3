@@ -1,0 +1,46 @@
+{
+	"name": "your-project-name",
+	"version": "1.0.0",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"format": "prettier --write .",
+		"build": "your-build-command"
+	},
+	"keywords": [
+		"Space",
+		"Proxy",
+		"Unblocker",
+		"Space",
+		"Proxy",
+		"Space",
+		"Unblocker"
+	],
+	"author": "xnoctra <x.noctra@outlook.com>; crllect <crllect@proton.me>",
+	"license": "ISC",
+	"description": "",
+	"engines": {
+		"node": ">=20.0.0 <22.0.0",
+		"pnpm": ">=9.0.0"
+	},
+	"dependencies": {
+		"@mercuryworkshop/bare-mux": "^2.1.7",
+		"@mercuryworkshop/epoxy-transport": "^2.1.27",
+		"@mercuryworkshop/libcurl-transport": "^1.4.0",
+		"@mercuryworkshop/wisp-js": "^0.3.3",
+		"@titaniumnetwork-dev/ultraviolet": "^3.2.10",
+		"chalk": "^5.4.1",
+		"cors": "^2.8.5",
+		"express": "^4.21.2",
+		"express-rate-limit": "^7.5.0",
+		"lucide-static": "^0.424.0"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.4.21",
+		"html-minifier-terser": "^7.2.0",
+		"prettier": "^3.5.3",
+		"sass": "^1.85.1",
+		"terser": "^5.39.0"
+	}
+}
